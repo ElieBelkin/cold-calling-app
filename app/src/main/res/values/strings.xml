@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="everyone_called">You have already called on everyone this period!</string>
+</resources>
