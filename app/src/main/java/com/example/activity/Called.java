@@ -40,7 +40,7 @@ public class Called extends ColdCallingActivity {
         String[] s = new String[n];
         for (int i = 0; i < n; i++) {
             Student student = ((StudentArray) getApplication()).getCalled().get(i);
-            s[i] = student.getFirstName() + " " + student.getLastName();
+            s[i] = student.getFirstName() + " " + student.getLastName() + ", Times Called: " + student.getCallCount();
         }
         return s;
     }
